@@ -1,0 +1,196 @@
+<!-- ESCAPE ROOM STORY TWO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- getting IBM Plex Mono from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Trapped! Unseen Letter</title>
+</head>
+<body>
+    <!-- ask raghu for logo -->
+    <header id="navbar">
+<!--         <div><img src="/resources/ANY LOGO" alt="Trapped Logo" id="trapped-logo"></div> -->
+        <h1 id="title">TRAPPED! An Unseen Letter</h1>
+    </header>
+    <!-- login fields and submit button -->
+    <div id="main-panel">
+      <h4 class="diary-title">
+        10th August 2022
+      </h4>
+      <h4 class="diary-title">
+        My Dear Lily,
+      </h4>
+      <p class="diary-entry">
+        	I know it is your birthday today. I can not make it this year either. I hope you know that daddy loves you very much — my baby girl. You turn 13. It seems just yesterday that I held you for the first time in my arms. 7 pounds and 19 inches. You were an angel. You still are.
+      </p>
+      <p class="diary-entry">
+        The work here is great. The Shen-Li corporation is very generous. They take great care of me. Mr Li always is the heart of the building. He always cheers me up. Little Miss Li reminds me of the 5-year-old you. Always cheerful and indeed very playful. Even she is very interested in Xiener.
+      </p>
+      <p class="diary-entry">
+        But I must warn you. I suspect that the corporation is up to no good. Mr Han keeps asking if Xiener can take over human brains. I don't like him very much.
+      </p>
+      <p class="diary-entry">
+        But these things can wait. I have already booked tickets to take you to Disneyland! I know how much you wanted to go. Mr Li even arranged for VIP Passes. Mark the date in your calendar. We are going on the 22nd of August. And DON’T tell your mom about this. I want to keep it a surprise.
+      </p>
+      <h4 class="diary-title">
+        Love,
+      </h4>
+      <h4 class="diary-title">
+        Dad.
+      </h4>
+    </div>
+    <footer><div color="black">made with ♡ by mank</div></footer>
+</body>
+</html>
+<style>
+  /* general */
+* {
+  box-sizing: border-box;
+  font-family: 'IBM PLex Mono', Courier, monospace;
+  border-color: black;
+  color: red;
+}
+
+/* default view for large screens */
+/* header footer styling */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 1.0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid black;
+/*   border-bottom: 0px; */
+  border-color: white;
+}
+header:hover {
+    border-radius: 0px;
+    background-color: rgba(100, 100, 100, 1.0);
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header img {
+    max-height: 150px;
+}
+  body img:hover {
+    opacity: 0.7;
+  }
+#title {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+#actions {
+    display: flex;
+    gap: 40px;
+}
+.action-button {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.action-button:hover {
+    background-color: white;
+    border-radius: 0px;
+}
+.button-label {
+    font-size: 26px;
+    font-weight: 300;   
+}
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/* main pane styling */
+#main-panel {
+  background-color: black;
+  border: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: white;
+  padding: 50px;
+}
+#user-icon {
+    max-height: 100px;
+    margin-top: 20px;
+}
+label h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+#fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+#fields label {
+    align-self: center;
+    justify-self: flex-start;
+    font-size: 20px;
+}
+.diary-entry {
+  color: white;
+}
+  .diary-title {
+    color: white;
+}
+#submit-link {
+    display: flex;
+    min-width: 20%;
+    justify-content: flex-end;
+}
+#submit {
+  border-color: white;
+  max-height: 25%;
+  font-size: 24px;
+  background-color: black;
+}
+#submit:hover {
+    background-color: rgba(100, 100, 100, 1.0);
+}
+.field {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+/* view for smaller screens */
+@media screen and (max-width: 800px) {
+    /* header modifications */
+    header img {
+        max-height: 100px;
+    }
+    #title {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #actions {
+        gap: 10px;
+    }
+    .button-label {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+</style>
+<script>
+  console.log("DON'T WASTE YOUR TIME HERE!");
+  console.log("THIS IS NOT A CTF.");
+</script>

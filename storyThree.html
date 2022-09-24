@@ -1,0 +1,199 @@
+<!-- ESCAPE ROOM STORY THREE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- getting IBM Plex Mono from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Trapped! News Report</title>
+</head>
+<body>
+    <!-- ask raghu for logo -->
+    <header id="navbar">
+<!--         <div><img src="/resources/ANY LOGO" alt="Trapped Logo" id="trapped-logo"></div> -->
+        <h1 id="title">TRAPPED! A Controversial Report</h1>
+    </header>
+    <!-- login fields and submit button -->
+    <div id="main-panel">
+      <h3 class="diary-title">
+        The Whistleblower
+      </h3>
+      <h3 class="diary-title">
+        31st August 2022
+      </h3>
+      <h3 class="diary-title">
+        138 Infected as Mysterious Virus grips Manila.
+      </h3>
+      <p class="diary-entry">
+        A mysterious Virus appeared in Manila city 3 days ago, wreaking havoc among its residents. The infected have developed almost zombie-like symptoms. Greenish tinge and an almost complete revertal to primal instincts. It appears as though the virus has hijacked the victim's brain. Diminished cranial capacity and heightened hearing prowess cause the victims to be super sensitive to sound, although very loud noises can cause severe discomfort.
+      </p>
+      <p class="diary-entry">
+        Dr Jian Hao, a leading researcher and the official spokesperson for the Ministry of Health commented that the virus spreads through every means possible. You could breathe in the virus, you could catch it through infected water or food. The fastest way to propagate is an exchange of body fluids.
+      </p>
+      <p class="diary-entry">
+        The government has put an effective lockdown over the entire city and all flights have been grounded indefinitely. This has especially angered the public who have been scampering trying to get flights out of the country. Although even this is no longer useful.
+      </p>
+      <p class="diary-entry">
+        Denver, Rio, and Lisbon have reported confirmed infections numbering in the hundreds. Berlin, Moscow, Nairobi and Tokyo have suspected infections numbering in the Thousands. World Leaders have fled aboard aircraft carriers with supplies. An estimate says that these supplies would last over 5 years. Their objectives are still unclear.
+      </p>
+      <p class="diary-entry">
+        A general sense of doom approaches as several countries have joined in mass prayers. The pope organized one yesterday at Vatican Square. Hundreds of major pharmaceutical companies have joined in the pursuit of finding the antidote.
+      </p>
+      <p class="diary-entry">
+        “The virus is too resilient yet We are working on the cusp of a great breakthrough.” said James Singh, an executive at Anglo-Espana Pharmaceuticals.
+      </p>
+    </div>
+    <footer><div color="black">made with ♡ by mank</div></footer>
+</body>
+</html>
+<style>
+  /* general */
+* {
+  box-sizing: border-box;
+  font-family: 'IBM PLex Mono', Courier, monospace;
+  border-color: black;
+  color: red;
+}
+
+/* default view for large screens */
+/* header footer styling */
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 1.0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 2px solid black;
+/*   border-bottom: 0px; */
+  border-color: white;
+}
+header:hover {
+    border-radius: 0px;
+    background-color: rgba(100, 100, 100, 1.0);
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header img {
+    max-height: 150px;
+}
+  body img:hover {
+    opacity: 0.7;
+  }
+#title {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+#actions {
+    display: flex;
+    gap: 40px;
+}
+.action-button {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.action-button:hover {
+    background-color: white;
+    border-radius: 0px;
+}
+.button-label {
+    font-size: 26px;
+    font-weight: 300;   
+}
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/* main pane styling */
+#main-panel {
+  background-color: black;
+  border: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: white;
+  padding: 50px;
+}
+#user-icon {
+    max-height: 100px;
+    margin-top: 20px;
+}
+label h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+#fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+#fields label {
+    align-self: center;
+    justify-self: flex-start;
+    font-size: 20px;
+}
+.diary-entry {
+  color: white;
+}
+  .diary-title {
+    color: white;
+}
+#submit-link {
+    display: flex;
+    min-width: 20%;
+    justify-content: flex-end;
+}
+#submit {
+  border-color: white;
+  max-height: 25%;
+  font-size: 24px;
+  background-color: black;
+}
+#submit:hover {
+    background-color: rgba(100, 100, 100, 1.0);
+}
+.field {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+/* view for smaller screens */
+@media screen and (max-width: 800px) {
+    /* header modifications */
+    header img {
+        max-height: 100px;
+    }
+    #title {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #actions {
+        gap: 10px;
+    }
+    .button-label {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+</style>
+<script>
+  console.log("DON'T WASTE YOUR TIME HERE!");
+  console.log("THIS IS NOT A CTF.");
+</script>
