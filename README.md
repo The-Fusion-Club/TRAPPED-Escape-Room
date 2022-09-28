@@ -1,5 +1,5 @@
 # TRAPPED-Escape-Room
-[TRAPPED! The Escape Room](bit.ly/trapped-prelims)
+[TRAPPED! The Escape Room]([bit.ly/trapped-prelims](https://fusion-escape-room.replmank.repl.co))
 26/09/2022 
 Preliminary Round Enigma website for 65 teams to solve a set of challenges in 30 minutes and enter the solved code to qualify for finals.
 
