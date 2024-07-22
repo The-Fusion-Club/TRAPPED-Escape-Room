@@ -28,7 +28,7 @@ let Team = mongoose.model("Team", teamSchema);
 app.use("/resources", express.static(__dirname + "/resources"));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/home.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/test", (req, res) => {
